@@ -25,9 +25,12 @@ header {
                 display: grid;
                 place-items: center;
                 font-size: 16px;
-                background: #065cac;
+                background: rgb(3, 36, 0);
+                background: linear-gradient(90deg, rgba(3, 36, 0, 1) 0%, rgba(9, 121, 105, 1) 55%, rgba(0, 212, 255, 1) 100%);
+                transition: 1s;
                 &:hover {
-                    background: #06acac;
+                    background: rgba(0, 212, 255, 1);
+                    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(9, 121, 105, 1) 55%, rgba(3, 36, 0, 1)100%);
                 }
                 a {
                     color: white;
